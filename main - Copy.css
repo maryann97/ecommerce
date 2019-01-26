@@ -1,0 +1,12 @@
+div{
+	border:1px ridge white;
+	background-color:white;
+	width:px;
+	padding:2px 4px;
+	font:tahoma;
+}
+span{
+	color:blue;
+	font:arial bold italics 12px;
+	text-decoration:dotted;
+}

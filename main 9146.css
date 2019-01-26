@@ -1,0 +1,101 @@
+
+
+body{
+	margin:50px;
+	text-align:center;
+	font-family:sans-serif;
+	background-image:url(22.JPG);
+	background-size:cover;
+	background-position:center;
+}
+
+.menu{
+	display:inline-block;
+	background:rgba(0,0,0,0.5);
+	list-style-type:none;
+	float:left;		
+}
+.menu li{
+	float:left;
+	margin:20px;
+	width:205px;
+	color:white;
+	font-family:sans-serif;
+	font-size:22px;
+	color:white;	
+}
+
+div{
+	
+	background-color:rgba(0,0,0,0);
+	padding:0px 0px; 
+		
+}
+span{
+	color:blue;
+	font:arial bold italics 12px;
+	text-decoration:dotted;
+}
+header,nav,article,section,footer,aside{
+	  display:caption-side;
+}
+/* centering website*/
+.container{
+	width:2000px;
+	margin:0px auto;
+}
+.clear{
+	clear:both;
+}
+
+
+.logo{
+	height:100px;
+	width:150px;
+	float:center;
+}
+.top_nav{
+	  float:left;
+	  width:2050px;
+}
+.top_nav ul li{
+	    float:left;
+		padding:35px 25px;
+}
+/*float aside and main section*/
+.left_side{
+	float:left;
+	width:1300px;
+}
+.right_side{
+	float:left;
+	width:700px;
+	
+}
+/*make a footer clear floated elements*/
+.social_links{
+	float:left;
+	clear:both;
+	line-height:1em;
+}
+.social_links ul{
+	list-style-type:none;
+}
+.social_links ul li{
+	text-align:left;
+	
+}
+.social_links h2{
+	text-align:left;
+	
+}
+.page_footer{
+	clear:both;
+	float:left;
+}
+.image{
+	clear:both;
+}
+ 
+	
+	
